@@ -1,0 +1,30 @@
+﻿{
+    "name":  "golf-app-new",
+    "version":  "1.0.0",
+    "main":  "index.js",
+    "scripts":  {
+                    "build":  "pwsh ./scripts/vercel-build.ps1",
+                    "create-migration":  "pwsh ./scripts/create-migration.ps1",
+                    "preview":  "vite preview",
+                    "deploy:db":  "pwsh ./scripts/deploy-database.ps1",
+                    "vite:build":  "vite build",
+                    "dev":  "vite"
+                },
+    "keywords":  [
+
+                 ],
+    "author":  "",
+    "license":  "ISC",
+    "type":  "commonjs",
+    "description":  "",
+    "dependencies":  {
+                         "@prisma/client":  "^6.5.0",
+                         "react":  "^19.1.0",
+                         "react-dom":  "^19.1.0"
+                     },
+    "devDependencies":  {
+                            "@vitejs/plugin-react":  "^4.3.4",
+                            "prisma":  "^6.5.0",
+                            "vite":  "^6.2.3"
+                        }
+}
